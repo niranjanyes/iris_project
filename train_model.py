@@ -12,7 +12,7 @@ def train():
         test_size=TEST_SIZE, random_state=RANDOM_STATE
     )
 
-    model = RandomForestClassifier(n_estimators=100, random_state=RANDOM_STATE)
+    model = RandomForestClassifier(n_estimators=500, random_state=RANDOM_STATE)
     model.fit(X_train, y_train)
 
    
