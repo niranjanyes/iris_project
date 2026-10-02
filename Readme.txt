@@ -34,3 +34,6 @@ A Random Forest-based classifier for the Iris dataset.
 ```bash
 pip install scikit-learn pandas numpy
 python main.py
+
+
+#niranjan edited this file
